@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Maximum Entropy Bootstrap</title>
-      <link>/2018/04/23/maxent/</link>
+      <title>Revisiting the Maximum Entropy Bootstrap</title>
+      <link>/2018/04/23/revisiting-the-maximum-entropy-bootstrap/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/04/23/maxent/</guid>
-      <description></description>
+      <guid>/2018/04/23/revisiting-the-maximum-entropy-bootstrap/</guid>
+      <description>Bootstrapping is a very useful technique throughout statistics, with many applications in many realms. A basic example of a resampling method could be</description>
     </item>
     
     <item>
