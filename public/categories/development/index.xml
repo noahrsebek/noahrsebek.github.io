@@ -17,7 +17,7 @@
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/04/23/revisiting-the-maximum-entropy-bootstrap/</guid>
-      <description>Bootstrapping is a very useful technique throughout statistics, with many applications in many realms. A basic example of a resampling method could be</description>
+      <description>The basic bootstrap is a powerful and intuitive tool that can be used in many ways. The basic intuition is: given a random sample \(p\) from some population \(P\), we can resample from \(p\) with replacement to get a bootstrapped sample (let’s call it \(p_{b}\)) that can be looked at as another sample from population \(P\); that is, without seeing any more observations within the population of interest, we can construct many samples \(p_b\) that approximate the overall population \(P\).</description>
     </item>
     
   </channel>

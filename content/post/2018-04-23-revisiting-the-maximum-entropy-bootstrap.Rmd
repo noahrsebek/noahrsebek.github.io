@@ -15,4 +15,33 @@ Tags:
 #menu: main
 ---
 
-Bootstrapping is a very useful technique throughout statistics, with many applications in many realms. A basic example of a resampling method could be 
+The basic bootstrap is a powerful and intuitive tool that can be used in many ways. The basic intuition is: given a random sample $p$ from some population $P$, we can resample from $p$ with replacement to get a bootstrapped sample (let's call it $p_{b}$) that can be looked at as another sample from population $P$; that is, without seeing any more observations within the population of interest, we can construct many samples $p_b$ that approximate the overall population $P$. 
+
+
+Of course, there are assumptions that must be met to have sound bootstrap inference, but this is probably the cleanest display of the basic method. One assumption that I mentioned was that $p_b$ must be a random sample from $P$ 
+
+
+
+
+There are many situations where you would want a replicated
+
+My interests in resampling/non-parametric methods as well as time-series statistics led me to read about the Maximum Entropy Bootstrap, first developed by Vinod. I was drawn to this method for a couple reasons:
+
+* There is no intuitive 'best' method to bootstrap time series data; each method has different assumptions
+* uhh
+
+
+
+
+```{r}
+
+```
+
+
+Another reason the ME bootstrap appeals to me is its 
+
+As cool as I think this method is, there are people way smarter than I that have voiced concerns over some of it's properties -- 
+Russell Davidson notes that the replicates actually are *too* similar to the original data; 
+
+This begs the question -- while the ME bootstrap may not be useful for estimating a population of potential (unrealized) time-series by which to test a hypothesis regarding the observed data, are there applications 
+

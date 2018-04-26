@@ -14,12 +14,20 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "About"
     url = "/about/"
 [[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/noahrsebek"
-
+    name = "Signal"
+    url = "/signal/"
+[[menu.main]]
+    name = " - Posts"
+    url = "/posts/"
+[[menu.main]]
+    name = " - Notes"
+    url = "/notes/"
+[[menu.main]]
+    name = "Noise"
+    url = "/noise/"
 
 [params]
-    description = "I analyze data at the University of Chicago Urban Labs."
+    description = "I analyze data, write code, and make music."
 
     themeColor = "theme-base-0d"
 

@@ -1,3 +1,11 @@
 ---
 site: blogdown:::blogdown_site
 ---
+
+
+
+Hey there. 
+
+My name is Noah Sebek, and I analyze data, write code, and make music. 
+
+:^D

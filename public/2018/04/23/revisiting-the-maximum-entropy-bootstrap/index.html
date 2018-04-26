@@ -34,13 +34,13 @@
     <div class="sidebar-about">
       <a href="/"><h1>Noah R. Sebek</h1></a>
       <p class="lead">
-       I analyze data at the University of Chicago Urban Labs. 
+       I analyze data, write code, and make music. 
       </p>
     </div>
 
     <ul class="sidebar-nav">
       <li><a href="/">Home</a> </li>
-      <li><a href="/about/"> About </a></li><li><a href="https://github.com/noahrsebek"> GitHub </a></li>
+      <li><a href="/notes/">  - Notes </a></li><li><a href="/posts/">  - Posts </a></li><li><a href="/about/"> About </a></li><li><a href="/noise/"> Noise </a></li><li><a href="/signal/"> Signal </a></li>
     </ul>
 
     <p>&copy; 2018. All rights reserved. </p>
@@ -51,7 +51,17 @@
     <div class="post">
   <h1>Revisiting the Maximum Entropy Bootstrap</h1>
   <span class="post-date">Mon, Apr 23, 2018</span>
-  <p>Bootstrapping is a very useful technique throughout statistics, with many applications in many realms. A basic example of a resampling method could be</p>
+  <p>The basic bootstrap is a powerful and intuitive tool that can be used in many ways. The basic intuition is: given a random sample <span class="math inline">\(p\)</span> from some population <span class="math inline">\(P\)</span>, we can resample from <span class="math inline">\(p\)</span> with replacement to get a bootstrapped sample (let’s call it <span class="math inline">\(p_{b}\)</span>) that can be looked at as another sample from population <span class="math inline">\(P\)</span>; that is, without seeing any more observations within the population of interest, we can construct many samples <span class="math inline">\(p_b\)</span> that approximate the overall population <span class="math inline">\(P\)</span>.</p>
+<p>Of course, there are assumptions that must be met to have sound bootstrap inference, but this is probably the cleanest display of the basic method. One assumption that I mentioned was that <span class="math inline">\(p_b\)</span> must be a random sample from <span class="math inline">\(P\)</span></p>
+<p>There are many situations where you would want a replicated</p>
+<p>My interests in resampling/non-parametric methods as well as time-series statistics led me to read about the Maximum Entropy Bootstrap, first developed by Vinod. I was drawn to this method for a couple reasons:</p>
+<ul>
+<li>There is no intuitive ‘best’ method to bootstrap time series data; each method has different assumptions</li>
+<li>uhh</li>
+</ul>
+<p>Another reason the ME bootstrap appeals to me is its</p>
+<p>As cool as I think this method is, there are people way smarter than I that have voiced concerns over some of it’s properties – Russell Davidson notes that the replicates actually are <em>too</em> similar to the original data;</p>
+<p>This begs the question – while the ME bootstrap may not be useful for estimating a population of potential (unrealized) time-series by which to test a hypothesis regarding the observed data, are there applications</p>
 
 </div>
 
